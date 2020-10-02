@@ -1,8 +1,10 @@
-Feature: Check that user gets the help or not from Checker tool based on circumstances
+Feature: Verify that user gets the help or not from Checker tool based on circumstances
 
-  #Scenarion Description: Validate one end to end follow starting from Start/Homepage to Result Page
+  Background: 
+
+  #Scenarion Description: Verify one end to end positive flow starting from Start/Homepage to Result Page
   @TestScenario1
-  Scenario Outline: User checking for help could get to pay for NHS costs
+  Scenario Outline: User verifies for help could get to pay for NHS costs
     Given I am a person from the UK "<Confirmation>"
     And open the "<browser>" and launch NHS website
     When User verifies the NHS homepage and clicks on START button
