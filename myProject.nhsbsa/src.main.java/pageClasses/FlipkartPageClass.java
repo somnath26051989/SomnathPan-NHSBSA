@@ -23,5 +23,4 @@ public class FlipkartPageClass {
 		email.click();
 		email.sendKeys(mailID);
 	}
-
 }
